@@ -1,0 +1,98 @@
+// ==========================================================================
+// Mobile Custom Styles
+// ==========================================================================
+
+// your styles go here...
+
+div.container {
+  margin-top: 0;
+  margin-bottom: 0;
+  background: white;
+}
+
+div.border-top {
+  border-top: none;
+}
+
+span.tooltip-icon, span.tooltip-icon-rt {
+  display: none;
+}
+
+.hide-for-tablet-up {
+  display: block;
+}
+
+div.hero-bg {
+  height: 200px;
+}
+
+.ebook-img {
+  max-width: 175px;
+}
+
+.col {
+  padding: 0;
+
+  &.col-12 {
+    padding: 0 15px;
+  }
+  &.mobile-extra {
+    padding: 0 15px;
+  }
+}
+
+.padding-adjust {
+  padding-left: 15px;
+
+  &.padding-adjust-top {
+    padding-left: 0;
+  }
+}
+
+.full-width-img {
+  width: 150px;
+  height: auto;
+}
+
+ul li {
+  font-size: 15px;
+  line-height: 21px;
+  margin: 0 0 0 0;
+}
+
+h1.mainheader {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.subhead {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 6px;
+}
+
+div.hero-bg {
+  padding: 10px 0 0 0;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.download-job-ready-guide {
+  margin: 5px 0;
+  font-size: 10px;
+}
+
+img.logo {
+  margin: 18px 0 15px 0;
+  width: 46px;
+  height: auto;
+}
+
+h2.logotype {
+  font-size: 12px;
+  font-family: $header-font-family;
+  text-align: left;
+  margin: 18px 0 0 0;
+}

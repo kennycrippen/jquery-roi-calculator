@@ -1,0 +1,46 @@
+// ==========================================================================
+// Base – Global Variables
+// ==========================================================================
+
+// Container Defaults
+$mobile-container:   100%;
+$tablet-container:   720px;
+$desktop-container:  1020px;
+
+
+// Resonsive Design Break Points
+$mobile-breakpoint:  ($tablet-container + 19px);
+$tablet-breakpoint:  ($tablet-container + 20px);
+$desktop-breakpoint: ($desktop-container);
+
+// Default Fonts
+$header-font-family:       "foco";
+$default-font-family:      Arial, Helvetica, sans-serif;
+$default-code-font-family: 'courier new', monospace, serif;
+
+// Font Size Defaults
+$h1: 30;
+$h2: 24;
+$h3: 18;
+$h4: 20;
+$h5: 18;
+$h6: 16;
+
+$default-font-size:   18;
+$default-line-height: 24;
+
+// Default Colours
+$default-font-color:          #3f454f;
+$default-link-color:          #00aeef;
+$default-button-color:        #00aeef;
+$default-button-hover-color:  #00aeef;
+
+// theme colors
+$darkgreen:                   #008066;
+$lightgreen:                  #62bb46;
+$blue:                        #00aeef;
+$grey:                        #3f454f;
+$bggrey:                      #e8e8e5;
+
+// borders
+$border: 1px dotted $grey;
